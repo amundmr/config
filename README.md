@@ -18,3 +18,10 @@ TODO: write notes about LSP, and set up autocompletion
 |Ctrl + t | Toggle Nerd Tree file browser |
 | F8 | Toggle Tagbar |
 
+
+# Ubuntu terminal setup
+
+Shell used: ZSH with oh-my-zsh
+Font: Nerdfont Hack (Hack NF)
+Installed exa with `alias ls='exa -l --icons' in my `.zshrc`
+
