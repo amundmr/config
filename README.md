@@ -7,6 +7,9 @@ Welcome to my neovim configuration. This repo serves as a reminder for myself on
 
 My plugin manager is Packer. Its config resides in `/lua/plugins.lua` and is loaded by `init.vim`: `lua require('plugins')`.
 
+TODO: write notes about LSP, and set up autocompletion
+
+
 
 ## Key bindings
 
