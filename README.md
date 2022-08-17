@@ -22,6 +22,7 @@ TODO: write notes about LSP, and set up autocompletion
 # Ubuntu terminal setup
 
 Shell used: ZSH with oh-my-zsh
+Also installed Powerlevel10k theme and went through the setup guide to configure it to my liking
 Font: Nerdfont Hack (Hack NF)
 Installed exa with `alias ls='exa -l --icons' in my `.zshrc`
 
