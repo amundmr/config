@@ -20,6 +20,8 @@ nmap <F8> :TagbarToggle<CR>
 " /bin/python3
 let g:python3_host_prog = expand('/usr/bin/python3')
 
+" Color scheme
+colorscheme carbonfox
 
 " autocomplete
 set completeopt=menu,menuone,noselect

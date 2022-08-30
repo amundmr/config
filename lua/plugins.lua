@@ -28,4 +28,6 @@ return require('packer').startup(function(use)
 	use "hrsh7th/cmp-cmdline"
 	use "hrsh7th/nvim-cmp"
 
+	-- Colorscheme
+	use "EdenEast/nightfox.nvim"
 end)
