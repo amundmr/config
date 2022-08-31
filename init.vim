@@ -1,6 +1,7 @@
 :set number		" get line numbers
 :set autoindent		" no idea
 :set mouse=a 		" allows clicking text to move marker
+:filetype plugin on
 syntax on
 
 " use packer

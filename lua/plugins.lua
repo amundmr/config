@@ -30,4 +30,7 @@ return require('packer').startup(function(use)
 
 	-- Colorscheme
 	use "EdenEast/nightfox.nvim"
+
+	-- CSV
+	use "chrisbra/csv.vim"
 end)
