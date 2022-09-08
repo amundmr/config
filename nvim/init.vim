@@ -1,6 +1,7 @@
 :set number		" get line numbers
 :set autoindent		" no idea
 :set mouse=a 		" allows clicking text to move marker
+:set clipboard=unnamedplus " Makes vim use windows' clipboard
 :filetype plugin on
 syntax on
 
@@ -97,4 +98,3 @@ lua <<EOF
     capabilities = capabilities
   }
 EOF
-

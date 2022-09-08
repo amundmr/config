@@ -1,6 +1,14 @@
 # Simplify calling python
 alias p3="python3"
 
+# Simplify getting to windows home and google drive
+alias mydrive="'/mnt/g/My Drive'"
+alias edrive="cd '/mnt/g/Shared drives/Evyon Shared/01. Products & R&D/03 Project Eir'"
+alias mydoc="cd /mnt/c/Users/amund/Documents"
+
+# If WSL doesn't automatically mount my gdrive:
+alias mountg="sudo mount -t drvfs G: /mnt/g"
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -114,4 +122,3 @@ alias ls='exa -l --icons'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-

@@ -1,3 +1,4 @@
+
 return require('packer').startup(function(use)
 	-- Packer mananges itself
 	use 'wbthomason/packer.nvim'

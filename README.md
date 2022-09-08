@@ -26,3 +26,11 @@ Also installed Powerlevel10k theme and went through the setup guide to configure
 Font: Nerdfont Hack (Hack NF)
 Installed exa with `alias ls='exa -l --icons' in my `.zshrc`
 
+## Symbolic links
+Symlinks are established to easen changing dirs and executing tasks in remote dirs. The following symlinks are established:
+
+		ln -s /mnt/c/Users/amund/Documents /mydocs
+		ln -s '/mnt/g/My Drive' /mydrive
+		ln -s '/mnt/g/Shared drives/Evyon Shared/01. Products & R&D/03 Project Eir' /edrive
+
+
